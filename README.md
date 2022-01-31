@@ -20,7 +20,7 @@ Crie o arquivo .env, logo em seguida, coloque as informações necessarias que s
     - API_KEY =   Chave de acesso do TMDB
     - API_URL =   Link de consumo da api do TMDB ("https://api.themoviedb.org/3")
     - API_IMAGE_URL = Link onde se encontra as imagens da api("https://image.tmdb.org/t/p/original")
-    - DATABASE_NAME = Nome do banco da sua aplicação ()
+    - DATABASE_NAME = Nome do banco da sua aplicação
     - DATABASE_USER = Nome do usuario de acesso do seu banco de dados
     - DATABASE_PASSWORD = Senha do seu banco de dados
     - DATABASE_HOST = Seu locallhost
@@ -32,11 +32,12 @@ Crie o arquivo .env, logo em seguida, coloque as informações necessarias que s
 Foi utilizado o gerenciador de bibliotecas yarn neste projeto, então:
 ```js
 yarn // Baixar dependências  
+yarn global add nodemon --prefix /usr/local //instalar nodemon globalmente
 yarn sequelize-cli db:migrate //Executar migrations
 yarn start //Executa o projeto
 ```
 
 Pronto! Agora é só configurar o front que está no seguinte link: Em dev <br>
  
-Criado por<br>
+Criado por:<br>
 Juliano Ferreira Rodrigues
