@@ -9,6 +9,7 @@
   - Express
   - Axios
   - Eslint
+  - Heroku (deploy)
 
 ## Executando o projeto 
 
@@ -32,12 +33,18 @@ Crie o arquivo .env, logo em seguida, coloque as informações necessarias que s
 Foi utilizado o gerenciador de bibliotecas yarn neste projeto, então:
 ```js
 yarn // Baixar dependências  
-yarn global add nodemon --prefix /usr/local //instalar nodemon globalmente
+yarn global add nodemon --prefix /usr/local // Caso queira utilizar o nodemon
 yarn sequelize-cli db:migrate //Executar migrations
 yarn start //Executa o projeto
 ```
 
 Pronto! Agora é só configurar o front que está no seguinte link: https://github.com/julianofrodrigues/DesafioFrontendTMDB <br>
- 
+
+<strong> Obs: </strong> A api se encontra no seguinte link do heroku:
+https://julianotmdbapi.herokuapp.com/
+
+Não coloquei nenhuma rota index, esse link funcionará apenas para acessar as rotas (GET) da api
+Exemplo: https://julianotmdbapi.herokuapp.com/movies/getTrendings
+
 Criado por:<br>
 Juliano Ferreira Rodrigues
