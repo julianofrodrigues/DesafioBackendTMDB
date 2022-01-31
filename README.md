@@ -37,7 +37,7 @@ yarn sequelize-cli db:migrate //Executar migrations
 yarn start //Executa o projeto
 ```
 
-Pronto! Agora é só configurar o front que está no seguinte link: Em dev <br>
+Pronto! Agora é só configurar o front que está no seguinte link: https://github.com/julianofrodrigues/DesafioFrontendTMDB <br>
  
 Criado por:<br>
 Juliano Ferreira Rodrigues
